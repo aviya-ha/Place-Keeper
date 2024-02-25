@@ -1,0 +1,23 @@
+
+
+.main-map{
+    position: relative;
+}
+
+.map-container{
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+   
+}
+
+.btn-curr-location{
+    font-size: 36px;
+    background-color:rgb(249, 249, 249);
+    position: absolute;
+    bottom: 198px;
+    right:10px;
+    border-radius:1px;
+    border: 1px solid rgb(249, 249, 249);
+    color: rgb(82, 81, 81);
+}

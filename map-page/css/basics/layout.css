@@ -1,0 +1,14 @@
+.main-layout {
+    display: grid;
+    grid-template-columns: 500px 300px;
+    grid-template-rows: 200px 500px;
+}
+
+.main-container {
+    margin: auto;
+}
+
+
+.main-layout>*.full {
+    grid-column: 1 / -1;
+}

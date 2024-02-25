@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user settings</title>
+    <link rel="stylesheet" href="css/user-prefs.css">
+</head>
+
+<body>
+
+    <form class="main-container" onsubmit="onSet(event)">
+        <header>
+            <h1>settings</h1>
+        </header>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="insert your email here" />
+
+        <label for="age">Age: <span id="sAge">18</span></label>
+        <input type="range" id="age" name="age" step="1" min="18" max="40" value="18" onchange="showAge(this.value)" />
+
+        <h3> colors-</h3>
+
+        <label for="background-color">set background color: </label>
+        <input type="color" id="background-color" name="background-color" form="frmRegister" value="#f8f5f1"
+            id="color" />
+
+        <label for="color">set text color:</label>
+        <input type="color" id="color" name="color" form="frmRegister" value="#000000" id="color" />
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" />
+
+        <label for="dob">Birth Time:</label>
+        <input type="time" id="time" name="time">
+
+        <button>set</button>
+        <nav>
+            <a class="to-welcoming-page-btn" href="/welcom-page/index.html">to welcome page</a>
+        </nav>
+    </form>
+
+
+    <script src="js/servise/util.js"></script>
+    <script src="js/servise/storage.js"></script>
+    <script src="js/servise/servise.js"></script>
+    <script src="js/controller.js"></script>
+</body>
+
+</html>

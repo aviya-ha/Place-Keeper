@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+  }
+    
+  body {
+    margin: 0;
+  }
+  
+  h1,
+  p {
+    margin: 0;
+  }
+  
+  .btn {
+    cursor: pointer;
+  }
+  

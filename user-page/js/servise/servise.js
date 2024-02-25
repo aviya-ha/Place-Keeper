@@ -5,15 +5,13 @@ const STORAGE_KAY = 'user-prefs'
 const user = {
     email: '',
     age: '',
-    bgColor : '',
+    bgColor: '',
     txtColor: '',
     birthDate: '',
     birthTime: ''
 }
 
-
-
-function getUser(){
+function getUser() {
     return user
 }
 
@@ -47,7 +45,6 @@ function setTimeBirth(time) {
     _save()
 }
 
-
-function _save(){
-    saveToStorage(STORAGE_KAY, user)   
+function _save() {
+    saveToStorage(STORAGE_KAY, user)
 }

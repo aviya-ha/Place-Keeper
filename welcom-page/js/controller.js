@@ -6,7 +6,6 @@ function onInit() {
     renderUserPref()
 }
 
-
 function renderUserPref() {
     const user = updateUserPref()
     

@@ -9,8 +9,6 @@ const user = {
     birthTime: ''
 }
 
-
-
 const STORAGE_KAY = 'user-prefs'
 
 

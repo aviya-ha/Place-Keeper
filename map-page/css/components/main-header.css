@@ -1,0 +1,40 @@
+
+
+.main-header{
+    background-color: green;
+    color: aliceblue;
+    padding-left: 20px; 
+}
+
+.header-txt{
+    font-size: 1.875rem;
+}
+
+.page-links{
+    gap: 20px;
+}
+
+.link{
+    font-size: 1.5625rem;
+    color: inherit;
+    padding-inline: 20px;
+}
+
+.page-links :nth-child(2) .link{
+    border-inline: 1px solid black;
+}
+
+.page-links :nth-child(1) .link{
+    padding-inline-start: 0;
+}
+
+.link-places{
+    text-decoration: none;
+}
+
+.link:hover{
+    color: yellow;
+}
+.link-places:hover{
+    color: white;
+}

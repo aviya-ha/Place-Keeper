@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>map</title>
+    <link rel="stylesheet" href="css/map.css">
+</head>
+
+<body class="flex" onload="onInit()">
+
+    <section class="main-container main-layout ">
+
+
+        <header class="main-header full flex flow-column space-between">
+
+            <h1 class="title header-title">Place Keeper</h1>
+
+            <p class="txt header-txt">You will never get lost here</p>
+
+            <nav class="main-nav">
+                <ul class="page-links clean-list flex">
+                    <li><a class="link" href="/welcom-page/index.html">Home</a></li>
+                    <li><a class="link link-places" href="#">Places</a></li>
+                    <li><a class="link" href="/user-page/userprefs.html">Settings</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main-map">
+            <div class="map-container"></div>
+            <button class="btn btn-curr-location" onclick="onBtnCurrLocation()">X</button>
+        </main>
+
+        <section class="saved-places flex flow-column">
+
+            <h1 class="title saved-places-title">Places</h1>
+
+            <ul class="places-links "></ul>
+
+            <a class="link-download" href="#">Download as CVS</a>
+        </section>
+
+    </section>
+
+
+    <script src="js/servise/util.js"></script>
+    <script src="js/servise/storage.js"></script>
+    <script src="js/servise/servise.js"></script>
+    <script src="js/controller.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqHn4-CGucMqbCj5o_bndmq_MSDh3c_bI">
+    </script>
+</body>
+
+</html>

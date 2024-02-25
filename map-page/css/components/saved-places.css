@@ -1,0 +1,16 @@
+
+.saved-places{
+    padding-inline-start: 20px ;
+}
+
+.saved-places-title{
+    margin-block: 10px;
+}
+
+.places-links{
+    font-size: 1.6rem;  
+}
+
+.link-download{
+    font-size: 1.25rem;  
+}
